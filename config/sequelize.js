@@ -1,5 +1,5 @@
 const {Sequelize} = require('sequelize');
-import mysql2 from 'mysql2';
+const mysql = require('mysql2');
 
 const sequelize = new Sequelize('sql12666123', 'sql12666123','3ycPS6BRhl', {
   host: 'sql12.freesqldatabase.com',
